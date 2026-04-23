@@ -129,34 +129,68 @@
     <!-- Step 2b: Meet the Doctor -->
     <section class="step" id="step-doctor">
         <div class="content left">
-            <h1>Meet Your Doctor</h1>
-            <div class="doctor-profile glass-tile">
-                <div class="tile-glow-follow"></div>
-                <div class="doc-header">
-                    <div class="doc-avatar-wrap">
-                        <div class="doc-avatar">
-                            <img src="logo/logo1.png" alt="Doctor Avatar">
+            <h1>Meet Your Team</h1>
+            <div class="doctors-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 3rem; width: 100%; max-width: 900px;">
+                <!-- Doctor 1 -->
+                <div class="doctor-profile glass-tile" style="margin-top: 0; max-width: 100%;">
+                    <div class="tile-glow-follow"></div>
+                    <div class="doc-header">
+                        <div class="doc-avatar-wrap">
+                            <div class="doc-avatar">
+                                <img src="logo/logo1.png" alt="Doctor Avatar">
+                            </div>
+                            <div class="social-icons">
+                                <span>🔗</span>
+                                <span>✉️</span>
+                            </div>
                         </div>
-                        <div class="social-icons">
-                            <span>🔗</span>
-                            <span>✉️</span>
+                        <div class="doc-titles">
+                            <h2>Dr. Tottadi Divya</h2>
+                            <span class="doc-degree">BDS - General & Cosmetic Dentistry</span>
                         </div>
                     </div>
-                    <div class="doc-titles">
-                        <h2>Dr. Tottadi Divya</h2>
-                        <span class="doc-degree">BDS - General & Cosmetic Dentistry</span>
+                    <div class="doc-bio">
+                        <p>With over 10 years of clinical excellence, our lead specialist is dedicated to providing
+                            world-class, painless dental care tailored to your unique smile.</p>
+                    </div>
+                    <div class="doc-highlights">
+                        <ul>
+                            <li>✔ Advanced Restorative Dentistry</li>
+                            <li>✔ Certified Implantologist</li>
+                            <li>✔ Patient-First Approach</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="doc-bio">
-                    <p>With over 10 years of clinical excellence, our lead specialist is dedicated to providing
-                        world-class, painless dental care tailored to your unique smile.</p>
-                </div>
-                <div class="doc-highlights">
-                    <ul>
-                        <li>✔ Advanced Restorative Dentistry</li>
-                        <li>✔ Certified Implantologist</li>
-                        <li>✔ Patient-First Approach</li>
-                    </ul>
+
+                <!-- Doctor 2 (Hygienist) -->
+                <div class="doctor-profile glass-tile" style="margin-top: 0; max-width: 100%;">
+                    <div class="tile-glow-follow"></div>
+                    <div class="doc-header">
+                        <div class="doc-avatar-wrap">
+                            <div class="doc-avatar">
+                                <!-- Placeholder or generic avatar if no image exists -->
+                                <span style="font-size: 2.5rem;">👨‍⚕️</span>
+                            </div>
+                            <div class="social-icons">
+                                <span>🔗</span>
+                                <span>✉️</span>
+                            </div>
+                        </div>
+                        <div class="doc-titles">
+                            <h2>G Ramesh</h2>
+                            <span class="doc-degree">Certified Dental Hygienist</span>
+                        </div>
+                    </div>
+                    <div class="doc-bio">
+                        <p>An expert in preventive oral care, Ramesh ensures your teeth and gums stay healthy, clean, and free of plaque.</p>
+                    </div>
+                    <div class="doc-highlights">
+                        <ul>
+                            <li>✔ Professional Teeth Cleaning</li>
+                            <li>✔ Periodontal Care</li>
+                            <li>✔ Oral Health Education</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -321,6 +355,11 @@
             <div class="btn-group">
                 <a href="tel:#" class="btn primary ripple">Call to Book</a>
                 <a href="#" class="btn secondary ripple">Visit Clinic</a>
+            </div>
+
+            <!-- Google Maps Embed -->
+            <div class="map-container" style="margin-top: 40px; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);">
+                <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1776922511497!5m2!1sen!2sin!6m8!1m7!1sXZ3OM4QJOTQ2vCyXPiPIsg!2m2!1d18.28071808011329!2d83.33705624017357!3f242.8287292267105!4f15.02605973492156!5f3.325193203789971" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
